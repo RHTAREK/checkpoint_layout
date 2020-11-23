@@ -1,0 +1,172 @@
+
+body{background-color: white;
+font-family: Helvetica neue;
+    font-weight: 300;letter-spacing: .3px;
+    color: #545050;
+    padding-bottom: 5mm;
+}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    
+   
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover {
+    background-color: transparent;
+  }
+    .BLOCK1{margin: 20mm;}
+.header{display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding: 0 5px ;
+    background-color: white;
+    color:#00b39b ;
+    }
+    
+    .header a{color: #00b39b;font-size: 4mm;} 
+    header > h1 :nth-child(odd) :hover{color: turquoise;}
+#imgm{
+    padding-top: 5mm;
+}
+.main{padding: 5mm 0;}
+/*#logoh{ }*/
+.ULH :hover{font-size: 6mm;}
+.ULH{
+    list-style-type: none;
+    display: flex;
+    
+}.listh{padding: 3mm;
+    
+    
+
+}.headmain1 h1{color: #00b39b;
+margin-left: 25%;
+
+}.paragraphemain {
+    display: flex;
+    font-size: larger;
+    justify-content: space-between;
+    
+
+    
+   
+}.pp1 {
+margin: 8mm;}
+   
+.pp2{margin: 8mm;
+}
+.health{
+    display: flex;
+    
+  color: white;
+ 
+  justify-content: space-around;
+}
+.patient{
+    background-color: #00b39b;border-radius: 12px;
+    
+}
+.doctor{
+    background-color: #3d83df;
+    padding: 3mm;
+  border-radius: 12px;
+}
+.imgpatient{display: flex;
+   justify-content: flex-end;
+}
+.service-select{
+    padding: 10px;
+     margin: 5mm; 
+    justify-content: center;
+    border-radius: 8px;
+}
+.imgdoctor{display: flex;
+    justify-content: flex-end;
+    align-content: space-between;
+  align-items: flex-end;
+}
+
+
+.bottomofblock1{ display:flex;padding: 20mm;}
+.lasttextblock1{color: #00b39b ;word-spacing: 0.5mm; font-weight: 0mm;font-family: Arial, Helvetica, sans-serif;
+}
+.blocklist{
+     justify-content: space-between;
+text-decoration: none;}
+
+    .lastlist{
+        list-style-type: none;
+        display: flex;
+        text-decoration: none;
+        flex-wrap: wrap;
+    }
+    .listlinks{font-size: 5mm;color:#e3e3e3;opacity: .5;
+        padding: 5mm; font-style:bold;}
+         .listlinks:hover{  font-weight: 900; opacity: 5;
+        text-decoration: none;color: #00b39b;
+outline: 0px;}
+.imglink{width: 5mm;}
+    a{text-decoration: none;
+    color: grey;}
+
+    .BLOCK2{ 
+        justify-content:space-around ;
+        background-image: url("pasted.png");
+height: 180mm;
+        background-color: #daf7f6;
+        display: flex;
+       align-content: stretch;
+    }
+    .part1{ text-align: center; margin-left: 50mm;padding:20mm;height: 150mm;width: 100mm;
+        align-content: center;
+    justify-content: center;}
+    .part2{margin-left: 30mm;width: 180mm;display: flex;
+    }
+    .part2block{background-color: white;font-size: 14px; height: 60mm;width: 60mm;margin: 5mm 5mm 0 5mm;padding: 7mm 0;justify-content: center;
+          text-align: center; border-radius: 8px; }
+         
+         .part2section1{margin-top: 15mm ;
+         }.part2section2{margin-bottom: 20mm;}
+         .part2block h1{color:#00b39b;font-style: oblique;}
+         .part1 h1{color: #00b39b;}
+         .textblock3 h1 { font-style: oblique;color: #00b39b ; font-size: 30px;}
+         .textblock3 { text-align: center;padding: 10mm;}
+         /*.place{}*/
+         .endofblock3{display: flex;flex-wrap: wrap;margin: 5mm 10mm; padding: 10mm;}
+         .opening{ margin: 5mm;}
+         .nameandbutton{display: flex;justify-content: space-around;Align-items:baseline;font-size: 12px;color: #747474;}
+         .nameandbutton button{border-radius: 10px;background-color: #3d83df;width: 40mm;height: 10mm;
+        border: solid #3d83df;}
+        .place a{display: flex;}
+        .place :hover{font-size: 50px;background-size: +2mm;background-color:white;}
+        .footer{text-align:center;font-size: 14px; text-decoration: #ababab;color:#ababab ; border-top:solid 0.5px rgb(238, 228, 228);font-family: Arial, Helvetica, sans-serif;}
+        .footer a{color: #3d83df;}
+        button:hover{size: +3mm;}
+        .opening :hover{margin: +2mm; }
+        .nameandbutton button:hover{color:darkblue;font-size: 5mm;text-decoration-style: double darkblue;border:solid darkblue;}
+        .imgplace {border-radius: 8px;}
